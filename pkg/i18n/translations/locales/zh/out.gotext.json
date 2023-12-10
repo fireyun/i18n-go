@@ -1,0 +1,38 @@
+{
+    "language": "zh",
+    "messages": [
+        {
+            "id": "Welcome!",
+            "message": "Welcome!",
+            "translation": "欢迎！"
+        },
+        {
+            "id": "Who are you? How old are you?",
+            "message": "Who are you? How old are you?",
+            "translation": "你是谁？你多大了？"
+        },
+        {
+            "id": "My name is {Name}, I'm {Age} years old.",
+            "message": "My name is {Name}, I'm {Age} years old.",
+            "translation": "我的名字叫{Name}，我{Age}岁了。",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                },
+                {
+                    "id": "Age",
+                    "string": "%[2]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 2,
+                    "expr": "age"
+                }
+            ]
+        }
+    ]
+}

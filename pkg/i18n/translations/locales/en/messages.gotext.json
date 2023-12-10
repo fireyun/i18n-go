@@ -1,0 +1,44 @@
+{
+    "language": "en",
+    "messages": [
+        {
+            "id": "Welcome!",
+            "message": "Welcome!",
+            "translation": "Welcome!",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Who are you? How old are you?",
+            "message": "Who are you? How old are you?",
+            "translation": "Who are you? How old are you?",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "My name is {Name}, I'm {Age} years old.",
+            "message": "My name is {Name}, I'm {Age} years old.",
+            "translation": "My name is {Name}, I'm {Age} years old.",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                },
+                {
+                    "id": "Age",
+                    "string": "%[2]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 2,
+                    "expr": "age"
+                }
+            ],
+            "fuzzy": true
+        }
+    ]
+}
